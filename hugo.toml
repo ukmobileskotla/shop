@@ -1,6 +1,6 @@
 baseURL = 'https://ukmobileskotla.github.io/shop/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'UK MOBILES'
 theme = 'exampleTheme'
 
 [[menu.main]]
