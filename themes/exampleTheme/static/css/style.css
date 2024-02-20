@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+				* {
+					margin: 0;
+					padding: 0;
+					box-sizing: border-box;
+					text-decoration: none;
+					list-style-type: none;
+					}
+					body {
+						font-family: "Poppins";
+					}		
+					.header-container {
+						/* border: 1px dotted lightblue; */
+						background-color: gray;
+						margin-top: 15px;
+					}
+					.cat h4 {
+						float: left;
+						margin: 7px 0px 0px 25px;
+						color: white;
+						letter-spacing: 1.5px;
+					}
+					#heading4 {
+						cursor: pointer;
+					}
+					#cat-nav {
+						position: absolute;
+						top: 55px;
+						width: 130px;
+					}
+					#cat-nav ul li {
+						border: 1px dotted lightgrey;
+					}
+					#cat-nav ul li a {
+						color: black;
+						display: block;
+						padding: 15px;
+						text-align: center;
+					}
+					#cat-nav ul li a:hover {
+						background-color: gray;
+						color: white;
+					}
+					.logo-brand {
+						margin-left: 41%;
+					}
+					.logo-brand img {
+						width: 40px;
+						height: 40px;
+						border-radius: 50%;
+						float: left;
+					}
+					.logo-brand h3 {
+						float: left;
+						margin: 5px 0px 0px 10px;
+						color: white;
+					}
+					#nav {
+						float: right;
+						margin-top: 5px;
+					}
+					#nav ul li {
+						float: left;
+					}
+					#nav ul li a {
+						font-size: 18px;
+						padding: 6px 15px 6px 15px;
+						color: white;
+					}
+					#nav ul li a:hover {
+						background-color: lightblue;
+						color: black;
+					}
+					.menu-items {
+						font-size: 24px;
+						float: right;
+						margin: 3px 25px 0px 0px;
+						color: white;
+					}
+					.brands {
+						float: left;
+						margin: 25px 0px 0px 25px;
+					}
+					.brands h6 {
+						color: red;
+					}
+					#topBrands {
+						color: brown;
+					}
+					.header-container::after {
+						content: "";
+						display: block;
+						clear: both;
+					}
+					#searchContainer {
+						width: 70%;
+						margin: 35px auto;
+						position: relative;
+					}
+					#searchBox {
+						width: 100%;
+						border: 2px solid lightblue;
+						border-radius: 15px;
+						padding: 5px 15px;
+						font-size: 15px;
+					}
+					#searchIcon {
+						position: absolute;
+						top: 7px;
+						right: 10px; 
+						color: blue;
+					}
+
+					@media only screen and (max-width: 768px) {
+						#times {
+							display: none;
+						}
+						.cat h4 {
+							margin-left: 15px;
+						}
+						.menu-items {
+							margin-right: 15px;
+						}
+						.logo-brand h3 {
+							margin-left: 5px;
+						}
+						#nav {
+							display: none;
+							float: none;
+							width: 100%;
+							position: absolute;
+							top: 50px;
+						}
+						#nav ul li {
+							float: none;
+							border-bottom: 1px dotted dodgerblue;
+						}
+						#nav ul li a {
+							display: block;
+							color: black;
+							text-align: center;
+						}
+						#nav ul li a:hover {
+							color: white;
+						}
+						#cat-nav {
+							display: none;
+						}
+						.carousel_items {
+							height: 30vh;
+						}
+						.contentContainer {
+							min-width: 100%;
+						}
+						
+					}
+					@media only screen and (min-width: 768px) {
+						.menu-items {
+							display: none;
+						}
+						.logo-brand {
+							position: absolute;
+							top: 70px;
+						}
+						.logo-brand h3 {
+							color: black;
+						}
+						.cat h4 {
+							margin-bottom: 5px
+						}
+						#searchContainer {
+							margin: 75px auto 50px auto;
+							width: 60%;
+						}
+						#cat-nav {
+							display: none;
+						}
+					}
+					@media only screen and (max-width: 992px) {
+						.brands {
+							display: none;
+						}
+					}
+					@media only screen and (min-width: 992px) {
+						#searchContainer {
+							float: right;
+							width: 250px;
+							margin: 20px 15% 100px 0px;
+						}
+						.brands {
+							margin-left: 15%;
+						}
+						.logo-brand {
+							margin-left: 38%;
+						}
+					}
+					@media only screen and (min-width: 1200px) {
+						.logo-brand {
+							margin-left: 40%;
+						}
+						#cat-nav {
+							display: block;
+						}
+					}
+					@keyframes slideRight {
+						from {
+							transform: translateX(-100%)
+						}
+						to {
+							transform: translateX(0%);
+						}
+					}
+					.brand-search::after {
+						content: "";
+						display: block;
+						clear: both;
+					}
+					.contentContainer {
+						width: 70%;
+						margin: 0px auto;
+					}
+
+					.item1 {
+					background-image: url("/shop/images/scenry/scen-1.jpg");
+				}
+				.item2 {
+					background-image: url("/shop/images/scenry/scen-2.jpg");
+				}
+				.item3 {
+					background-image: url("/shop/images/scenry/scen-3.jpg");
+				}
+				.item4 {
+					background-image: url("/shop/images/scenry/scen-4.jpg");
+				}
+				.item5 {
+					background-image: url("/shop/images/scenry/scen-5.jpg");
+				}
+				.carousel_items {
+					display: flex;
+					overflow: hidden;
+					position: relative;
+					z-index: -1;
+				}
+				.carousel_item {
+					min-width: 100%;
+					height: 50vh;
+					background-size: cover;
+
+					transition: all 0.5s linear; 
+				}
+
+				
+				.container h1 {
+				text-align: center;
+				margin: 50px 0px;
+				color: #363b4e;
+				}
+				.wrapper {
+				/* border: 1px solid blue; */
+				width: 90%;
+				margin: auto;
+				}
+				.items {
+				/* border: 1px solid #c4c1e0; */
+				text-align: center;
+
+				width: 40%;
+				margin: 15px 0% 0px 7%;
+				padding: 5px;
+
+				float: left;
+				}
+				.items img {
+				width: 100%;
+				}
+				.title-para {
+				/* border: 1px solid green; */
+				height: 100px;
+				}
+				.items h4 {
+				color: #393e46
+				}
+				.items p {
+				color: gray;
+				}
+				.container small {
+				color: red;
+				}
+				.wrapper::after {
+				content: "";
+				display: block;
+				clear: both;
+				}
+
+				@media only screen and (min-width: 576px) {
+				.items {
+					width: 25%;
+					margin-left: 6%;
+				}
+				}
+				@media only screen and (min-width: 992px) {
+				.items {
+					width: 15%;
+					margin-left: 8%;
+				}
+				}
+				footer {
+				background-color: gray;
+				padding: 25px 0px;
+				text-align: center;
+				color: white;
+				}
+				#footer-heading {
+				margin-bottom: 25px;
+				}
+				#footer-links {
+				margin-bottom: 15px;
+				}
+				#footer-links a {
+				color: white;
+				}
+
+				.list-title {
+					margin: 30px;
+					text-align: center;
+					color: gray;
+				}
+				.list-container {
+					width: 70%;
+					margin: 0px auto 50px auto;
+				}
+				.list-container img {
+					width: 70%;
+				}
+				.single-container {
+					width: 70%;
+					margin: 50px auto;
+					/* border: 1px solid; */
+				}
+				.single-container img {
+					width: 250px;
+					margin: 25px auto 50px auto;
+					display: block;
+				}
+				.single-container h2 {
+					text-align: center;
+				}
+
+				.list-content {
+					text-align: center;
+				}
+
+				@media only screen and (max-width: 576px) {
+					.list-container img {
+						width: 40%;
+						margin-left: 6%;
+						margin-bottom: 10px;
+					}
+					
+				}
+				
+				@media only screen and (min-width: 576px) {
+					.list-container img {
+						width: 30%;
+						margin-left: 2%;
+						margin-bottom: 10px;
+					}
+					
+				}
+				
+				@media only screen and (min-width: 768px) {
+					.list-container img {
+						width: 30%;
+						margin-left: 2%;
+						margin-bottom: 10px;
+					}
+					.list-title {
+						margin-top: 80px;
+						margin-bottom: 50px;
+					}
+					.single-container {
+						margin-top: 100px;
+					}
+					
+				}
+				@media only screen and (min-width: 992px) {
+					.list-container img {
+						width: 20%;
+						margin-left: 4%;
+						margin-bottom: 30px;
+					}
+					.single-container img {
+						width: 250px;
+						display: block;
+						margin: 25px 0px 50px 50px;
+						float: left;
+					}
+					.single-page-content {
+						width: 300px;
+						float: left;
+						margin: 25px 0px 0px 50px;
+					}
+					.single-container::after {
+						content: "";
+						display: block;
+						clear: both;
+					}
+					
+				}
+				
+				.go-back {
+					margin-top: 25px;
+					background-color: orange;
+					width: 200px;
+					text-align: center;
+				}
+				.go-back a {
+					text-decoration: none;
+					color: white;
+				}

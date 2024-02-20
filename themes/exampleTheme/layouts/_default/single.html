@@ -1,0 +1,9 @@
+{{ define "main" }}
+
+<div class="single-container">
+        <h3>{{ .Title }}</h3>
+            <img src="{{ .Params.image }}" alt="" width="200" class="single-page-img">
+        <div class="single-page-content">{{ .Content }}</div>
+    </div>
+
+{{ end }}

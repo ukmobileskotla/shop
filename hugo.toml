@@ -1,0 +1,53 @@
+baseURL = 'https://ukmobileskotla.github.io/shop/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'exampleTheme'
+
+[[menu.main]]
+name = 'Mobiles'
+url = '/categories/mobiles/'
+weight = 10
+
+[[menu.main]]
+name = 'Chargers'
+url = '/categories/chargers/'
+weight = 20
+
+[[menu.main]]
+name = 'Cables'
+url = '/categories/cables/'
+weight = 30
+
+[[menu.main]]
+name = 'handsfree'
+url = '/categories/handsfree/'
+weight = 40
+
+[[menu.main]]
+name = 'Bluetooths'
+url = '/categories/bluetooths/'
+weight = 50
+
+[[menu.main]]
+name = 'Speakers'
+url = '/categories/speakers/'
+weight = 60
+
+[[menu.main]]
+name = 'Airpods'
+url = '/categories/airpods/'
+weight = 70
+
+[[menu.main]]
+name = 'Cases'
+url = '/categories/cases/'
+weight = 80
+
+[[menu.main]]
+name = 'Screen Protectors'
+url = '/categories/screen protectors/'
+weight = 90
+
+[markup.goldmark.parser.attribute]
+block = true
+title = true
