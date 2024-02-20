@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cases on My New Hugo Site</title>
+    <link>https://ukmobileskotla.github.io/shop/categories/cases/</link>
+    <description>Recent content in Cases on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Feb 2024 16:31:57 +0500</lastBuildDate>
+    <atom:link href="https://ukmobileskotla.github.io/shop/categories/cases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Case 6</title>
+      <link>https://ukmobileskotla.github.io/shop/categories/cases/case-6/</link>
+      <pubDate>Tue, 06 Feb 2024 16:34:06 +0500</pubDate>
+      <guid>https://ukmobileskotla.github.io/shop/categories/cases/case-6/</guid>
+      <description>Go back to cases</description>
+    </item>
+    <item>
+      <title>Case 5</title>
+      <link>https://ukmobileskotla.github.io/shop/categories/cases/case-5/</link>
+      <pubDate>Tue, 06 Feb 2024 16:33:52 +0500</pubDate>
+      <guid>https://ukmobileskotla.github.io/shop/categories/cases/case-5/</guid>
+      <description>Go back to cases</description>
+    </item>
+    <item>
+      <title>Case 4</title>
+      <link>https://ukmobileskotla.github.io/shop/categories/cases/case-4/</link>
+      <pubDate>Tue, 06 Feb 2024 16:33:39 +0500</pubDate>
+      <guid>https://ukmobileskotla.github.io/shop/categories/cases/case-4/</guid>
+      <description>Go back to cases</description>
+    </item>
+    <item>
+      <title>Case 3</title>
+      <link>https://ukmobileskotla.github.io/shop/categories/cases/case-3/</link>
+      <pubDate>Tue, 06 Feb 2024 16:33:26 +0500</pubDate>
+      <guid>https://ukmobileskotla.github.io/shop/categories/cases/case-3/</guid>
+      <description>Go back to cases</description>
+    </item>
+    <item>
+      <title>Case 2</title>
+      <link>https://ukmobileskotla.github.io/shop/categories/cases/case-2/</link>
+      <pubDate>Tue, 06 Feb 2024 16:33:11 +0500</pubDate>
+      <guid>https://ukmobileskotla.github.io/shop/categories/cases/case-2/</guid>
+      <description>Go back to cases</description>
+    </item>
+    <item>
+      <title>Case 1</title>
+      <link>https://ukmobileskotla.github.io/shop/categories/cases/case-1/</link>
+      <pubDate>Tue, 06 Feb 2024 16:32:08 +0500</pubDate>
+      <guid>https://ukmobileskotla.github.io/shop/categories/cases/case-1/</guid>
+      <description>Go back to cases</description>
+    </item>
+  </channel>
+</rss>

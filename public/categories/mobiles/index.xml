@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobiles on My New Hugo Site</title>
+    <link>https://ukmobileskotla.github.io/shop/categories/mobiles/</link>
+    <description>Recent content in Mobiles on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Feb 2024 13:16:51 +0500</lastBuildDate>
+    <atom:link href="https://ukmobileskotla.github.io/shop/categories/mobiles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mobile 6</title>
+      <link>https://ukmobileskotla.github.io/shop/categories/mobiles/mobile-6/</link>
+      <pubDate>Tue, 06 Feb 2024 16:09:14 +0500</pubDate>
+      <guid>https://ukmobileskotla.github.io/shop/categories/mobiles/mobile-6/</guid>
+      <description>Go back to mobiles</description>
+    </item>
+    <item>
+      <title>Mobile 5</title>
+      <link>https://ukmobileskotla.github.io/shop/categories/mobiles/mobile-5/</link>
+      <pubDate>Tue, 06 Feb 2024 16:09:03 +0500</pubDate>
+      <guid>https://ukmobileskotla.github.io/shop/categories/mobiles/mobile-5/</guid>
+      <description>Go back to mobiles</description>
+    </item>
+    <item>
+      <title>Mobile 4</title>
+      <link>https://ukmobileskotla.github.io/shop/categories/mobiles/mobile-4/</link>
+      <pubDate>Mon, 05 Feb 2024 13:17:40 +0500</pubDate>
+      <guid>https://ukmobileskotla.github.io/shop/categories/mobiles/mobile-4/</guid>
+      <description>Go back to mobiles</description>
+    </item>
+    <item>
+      <title>Mobile 3</title>
+      <link>https://ukmobileskotla.github.io/shop/categories/mobiles/mobile-3/</link>
+      <pubDate>Mon, 05 Feb 2024 13:17:31 +0500</pubDate>
+      <guid>https://ukmobileskotla.github.io/shop/categories/mobiles/mobile-3/</guid>
+      <description>Go back to mobiles</description>
+    </item>
+    <item>
+      <title>Mobile 2</title>
+      <link>https://ukmobileskotla.github.io/shop/categories/mobiles/mobile-2/</link>
+      <pubDate>Mon, 05 Feb 2024 13:17:25 +0500</pubDate>
+      <guid>https://ukmobileskotla.github.io/shop/categories/mobiles/mobile-2/</guid>
+      <description>Go back to mobiles</description>
+    </item>
+    <item>
+      <title>Mobile 1</title>
+      <link>https://ukmobileskotla.github.io/shop/categories/mobiles/mobile-1/</link>
+      <pubDate>Mon, 05 Feb 2024 13:17:13 +0500</pubDate>
+      <guid>https://ukmobileskotla.github.io/shop/categories/mobiles/mobile-1/</guid>
+      <description>Go back to mobiles</description>
+    </item>
+  </channel>
+</rss>
