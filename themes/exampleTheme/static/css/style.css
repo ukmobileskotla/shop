@@ -419,3 +419,7 @@
 					text-decoration: none;
 					color: white;
 				}
+
+				.styled-box {
+					color: red;
+				}
