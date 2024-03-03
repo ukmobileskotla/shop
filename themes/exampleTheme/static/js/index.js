@@ -86,7 +86,7 @@ var times = document.getElementById("times");
 					categories[category].forEach(fileName => {
 						if (fileName.includes(searchTerm)) {
 							var link = document.createElement('a');
-							link.href = '/categories/' + category + '/' + fileName; // Adjust path based on your actual file structure
+							link.href = '/shop/categories/' + category + '/' + fileName; // Adjust path based on your actual file structure
 							link.textContent = fileName;
 							link.classList.add('result-link');
 							resultsContainer.appendChild(link);
