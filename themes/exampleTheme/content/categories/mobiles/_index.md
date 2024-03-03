@@ -5,8 +5,8 @@ draft = true
 +++
 
 {{< styled-box >}}
-    <h3>Hello, World!</h3>
-{{< styled-box >}}
+    <h3>Hello, Universe!</h3>
+{{< /styled-box >}}
 
 [Go back to home](/shop/)
 {.go-back}
